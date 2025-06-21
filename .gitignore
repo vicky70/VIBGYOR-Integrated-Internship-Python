@@ -1,0 +1,52 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# VSCode and PyCharm settings
+.vscode/
+.idea/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# dotenv environment variables
+.env
+.env.*
+
+# Mac & Linux system files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.so
+
+# Docker
+*.pid
+*.tar
+*.bak
+docker-compose.override.yml
+
+# Git-specific
+*.orig
+
+# Migrations (optional: if you want to keep your DB clean in repo init)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+# Uncomment next line to ignore all migration files
+# */migrations/*.py

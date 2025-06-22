@@ -14,7 +14,7 @@ from .models import DepartmentModel
 @api_view(['GET'])
 @permission_classes([IsAdminUser])
 def getDepartmentList(request):
-    departmentList = DepartmentModel.objects.all()
+    departmentList = DepartmentModel.objects.filter(status=True)
     return Response({'DepartmentList': DepartmentSerializer(departmentList, many=True).data}, status=status.HTTP_200_OK)
 
 @api_view(['PUT'])

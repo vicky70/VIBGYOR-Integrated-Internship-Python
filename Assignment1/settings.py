@@ -10,7 +10,7 @@ SECRET_KEY = 'django-insecure-8*3m--gc7_6nd*&8m1$zb-r#_6d6_tkeei+^0i1vw_09)gj+#f
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://vicky70.pythonanywhere.com/']
 
 
 # Application definition
@@ -37,6 +37,7 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://192.168.97.81:3000',
+    'https://vibgyor-react-fontend-o6336of5k-vicky70s-projects.vercel.app/'
 ]
 
 MIDDLEWARE = [
